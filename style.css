@@ -1,0 +1,69 @@
+h1 a{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 40px;
+}
+
+h1 {
+  font-family: 'Staatliches', cursive;
+  text-align: center;
+  font-size: 300%;
+  padding: 0;
+  margin: 0;
+  letter-spacing: .1em;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('class3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+h5, ul {
+  font-family: 'Open Sans', sans-serif;
+  margin: .5vw;
+}
+
+h3 {
+  font-family: 'Staatliches';
+  margin: .5vw;
+  line-height: 1;
+  letter-spacing: .2em;
+}
+
+#contentgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+  font-size: 1.5rem;
+  grid-column-gap: 1vw;
+  grid-row-gap: 1vh;
+}
+
+.contentitem {
+  display: flex;
+  flex-direction: column;
+  padding: 1vmin;
+  border: 2px solid black;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.contentitem {
+  flex-grow: 1;
+}
+
+.contentitem img {
+  align-self: center;
+}
+
+.footerimage {
+  width: 28vw;
+  object-fit: cover;
+  padding: 1vw;
+  align-items: center;
+}
